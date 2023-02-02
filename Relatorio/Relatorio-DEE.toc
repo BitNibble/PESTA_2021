@@ -1,0 +1,37 @@
+\babel@toc {portuguese}{}
+\babel@toc {portuguese}{}
+\babel@toc {english}{}
+\babel@toc {portuguese}{}
+\contentsline {chapter}{Lista de Figuras}{vii}{chapter*.9}%
+\contentsline {chapter}{Lista de Tabelas}{ix}{chapter*.10}%
+\contentsline {chapter}{Listagens}{xi}{chapter*.11}%
+\contentsline {chapter}{Lista de Acr\'{o}nimos}{xiii}{section*.12}%
+\contentsline {chapter}{\numberline {1}Introdução}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Objetivos}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Calendarização}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Organização do Relatório}{3}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Evolução da balança}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}O aparecimento e a evolução da balança}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}A balança eletrónica}{7}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Desenvolvimento do projeto}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Célula de carga}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Amplificador de sinal e \acs {adc}}{16}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Display \acs {lcd}}{20}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Microcontrolador}{21}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Fonte de Alimentação}{26}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Orçamento do material}{27}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Software}{29}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Software}{29}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Validação do projeto implementado}{37}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Testagem e validação do sistema implementado}{37}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Algumas considerações acerca do funcionamento do sistema}{38}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Conclusões}{39}{chapter.6}%
+\contentsline {chapter}{Refer\^{e}ncias}{41}{section*.51}%
+\contentsline {chapter}{Refer\^{e}ncias}{41}{chapter*.52}%
+\contentsline {chapter}{\numberline {A}main}{43}{appendix.A}%
+\contentsline {chapter}{\numberline {B}lcd.h}{51}{appendix.B}%
+\contentsline {chapter}{\numberline {C}lcd.c}{53}{appendix.C}%
+\contentsline {chapter}{\numberline {D}hx711.h}{63}{appendix.D}%
+\contentsline {chapter}{\numberline {E}hx711.c}{65}{appendix.E}%
+\contentsline {chapter}{\numberline {F}Definições}{71}{appendix.F}%
+\contentsline {chapter}{\numberline {G}Física}{73}{appendix.G}%

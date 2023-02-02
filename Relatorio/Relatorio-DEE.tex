@@ -1,0 +1,79 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% Template for Project/Internship reports, for LEEC and LETI at DEE, ISEP,
+% by Vitor M. R. Cunha - v1.0, May 2021
+% Suggestions and comments are welcomed (vrc at isep dot ipp dot pt).
+%
+% Template provided as is, NO SUPPORT will be given.
+% NO questions related to LaTeX will be answered, go to
+% https://ftp.eq.uc.pt/software/TeX/info/lshort/english/lshort.pdf, or search the web.
+%
+% The DEE document class uses the LaTeX book base class, the original work credits are
+% in the document class file.
+%
+% Overleaf template direct link:
+% https://www.overleaf.com/latex/templates/isep-dee-bsc-latex-template/kqkmqnjbbpvj
+% or go to https://www.overleaf.com/gallery/, and search for: ISEP LEEC
+%
+%%%%%%%%%%%%%%%%%%%% MAIN SETTINGS %%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[
+LEEC,			% Use this option to select your DEE degree, options: LEEC, LETI
+portuguese,		% Select document language, options: portuguese, english
+%draft,			% Uncomment for draft mode (no pictures, no links, overfull hboxes) 
+]{./Class/DEEclass}
+% Use the 'preamble.tex' file (root folder) do add packages and macros. Keep your main.tex file clean.
+\include{./include/PREAMBLE/preamble}	 
+\include{./include/SETUP/NewCommands}	 
+%%%%%%%%%%%%%%%%%% REPORT INFORMATION %%%%%%%%%%%%%%%%%%%%
+\input{front/title_parameter}
+%%%%%%%%%%%%%%%%% USER DEFINED LISTS %%%%%%%%%%%%%%%%%%%%%
+\makeglossaries						% Consider the following files in the 'front' folder:
+\input{front/0_glossary}			% Edit to define your glossary entries list
+\input{front/0_acronyms}			% Edit to define your acronyms entries list
+\input{front/0_symbols}				% Edit to define your symbols entries list
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\frontmatter
+%%%%%%%%%%%%%%%%%%%%%% FRONTMATTER %%%%%%%%%%%%%%%%%%%%%%%
+% Consider the following front matter sections provided as separate files in the 'front' folder.
+\include{front/title}
+% Comment the lines regarding the sections you will not use, or edit the file contents as needed
+%%%%%%%%%%%%%%%%DEDICATORIA%%%%%%%%%%%%%%%%%
+%\include{front/1_dedicatory}		% Edit if you want to dedicate your work to someone, or comment this line if not used
+%%%%%%%%%%%%%ACKNOWLEDGEMENTS%%%%%%%%%%%%%%%
+\include{front/2_acknowledgements}	% Edit to add the due acknowledgements, or comment this line if not used
+%%%%%%%%%%%%%%%%%ABSTRACT%%%%%%%%%%%%%%%%%%%
+\include{front/3_abstract}			% Edit the file to write the document Abstract. Two languages are always required.
+%%%%%%%%%%%%%FRONTMATTERLISTS%%%%%%%%%%%%%%%
+\include{front/4_frontmatterlists}	% Edit the file to select the lists to be shown (figures, tables, source code segments, glossary, acronyms, symbols)
+%%%%%%%%%%%%%%%%%%%%%%% MAINMATTER %%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter 
+\pagestyle{thesis} %thesis plain
+% Include the chapters of the document as separate files from the 'chapters' folder
+\include{chapters/chapter-1}
+\include{chapters/chapter-2}
+\include{chapters/chapter-3}
+\include{chapters/chapter-4}
+\include{chapters/chapter-5}
+\include{chapters/chapter-6}	
+								% Uncomment the lines as you write the chapters,
+								% where 'chapter3' refers to a file chapter3.tex
+%...							% in the 'chapters' folder	
+%%%%%%%%%%%%%%%%%%%%%%%BIBLIOGRAPHY%%%%%%%%%%%%%%%%%%%%%%%
+% Print the bibliographic references using the ieeetr format from the 'sampleRefs.bib' file (root folder)
+\printrefereces{./bibliography/Bibliography}		% Change the 'sampleRefs' name to match your .bib file name,
+								% a good option to make bib files is https://www.jabref.org/
+%%%%%%%%%%%%%%%%%%%%%%%APPENDIX%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+% Include the appendices of the document as separate files from the 'chapters' folder
+\include{chapters/appendixA}	% Uncomment the lines as you write the appendices,
+%\include{chapters/appendixB}	% or comment the lines if not used
+%%%%%%%%%%%%%%%%%%%%%%GLOSSARY%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\printglossary[style=mylong]
+%\newpage
+%\footnote{Apontamento}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%END%%%%%END%%%%%END%%%%%END%%%%%END%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%COMMENTS%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
